@@ -1,0 +1,141 @@
+/* {
+    font-size: 0px;
+}*/
+
+html,
+body {
+    min-width: 960px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+
+    background: #000000 url(bg.png) no-repeat
+    center top;
+}
+
+.clearfix::after {
+    content: "";
+
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    margin-bottom: 60px;
+    background-color: violet; 
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background: green;
+}
+
+.features {
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background: green;
+}
+
+.main-navigation {
+    float: left;    
+    width: 780px;
+    min-height: 70px;
+    background: blue;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+    min-height: 70px;
+    background: red;
+}
+
+.index-logo {
+    width: 368px;
+    height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background: gold;
+}
+
+.features-item {
+    float: left;
+    width: 300px;
+    background: slategrey;
+    margin-right: 20px;
+
+    min-height: 175px;
+}
+
+.features-item:last-child {
+    margin-right: 0px;
+    /*Ctobi poslednij element ne vilezal iz za marginov*/
+}
+
+.index-content {
+    width: 780px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 50px 80px;
+    background: lightgreen;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+    min-height: 330px;
+    background: rebeccapurple;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+    min-height: 330px;
+    background: rebeccapurple;
+}
+
+.main-footer {
+    margin-top: 65px;
+    width: auto;
+    background: red;
+    min-height: 200px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    min-height: 90px;
+    width: 320px;
+    margin-right: 60px;
+    background: aqua;
+    
+}
+
+.footer-social {
+    float: left;
+    min-height: 90px;
+    width: 180px;
+    background: aqua;
+}
+
+.footer-copyright {
+    float: right;
+    min-height: 90px;
+    width: 180px;
+    background: aqua;
+}
+
+
+
+
